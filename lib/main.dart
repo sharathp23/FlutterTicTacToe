@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tictactoe/screens/signup.dart';
 import 'package:showcaseview/showcaseview.dart';
-import 'package:flutter_tictactoe/screens/welcome.dart';
+import 'package:flutter_tictactoe/screens/home_screen.dart';
 import 'package:flutter/services.dart';
 
 void main() => runApp(MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: ShowCaseWidget(
         builder: Builder(
-          builder: (_) => SignUpPage(),
+          builder: (_) => WelcomeScreen(),
         ),
       )
     );
